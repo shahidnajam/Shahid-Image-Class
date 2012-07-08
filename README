@@ -1,5 +1,4 @@
-
-Using PHP GD librray
+Using PHP GD library
 
 $image = Shahid_Image_GD();
 
