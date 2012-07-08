@@ -1,0 +1,23 @@
+
+Using PHP GD librray
+
+$image = Shahid_Image_GD();
+
+Using Imagick Library
+
+$image = Shahid_Image_Imagick();
+
+$image->setFile('test.jpg');
+
+//Resize image to limit
+$image->resizeLimit('small_test.jpg',64,64);
+
+//Flip image 
+$image->flip('test.jpg' , Shahid_Image_Abstract::FLIP_VERTICAL);
+$image->flip('test.jpg' , Shahid_Image_Abstract::FLIP_HORIZONTAL);
+
+//Apply watermark on image on top left postion
+$image->watermarkImage('test.jpg' , Shahid_Image_Abstract::POS_TOP_LEFT);
+
+//Apply watermark on image on bottom left postion
+$image->watermarkImage('test.jpg' , Shahid_Image_Abstract::POS_BOTTOM_LEFT);
