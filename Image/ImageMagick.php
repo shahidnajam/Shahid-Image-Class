@@ -184,8 +184,8 @@ class Shahid_Image_ImageMagick extends Shahid_Image_Abstract
 	
 	    $imagick->writeImage($this->_file);
 	    $imagick->clear();
-		$imagick->destroy();
-		$draw->clear();
-		$draw->destroy();
+	    $imagick->destroy();
+	    $draw->clear();
+	    $draw->destroy();
 	}
 }
