@@ -123,9 +123,9 @@ class Shahid_Image_ImageMagick extends Shahid_Image_Abstract
 			
 	    $imagick->writeImage($this->_file);
 	    $overlay->clear();
-		$overlay->destroy();
+	    $overlay->destroy();
 	    $imagick->clear();
-		$imagick->destroy();
+            $imagick->destroy();
 	}
 	
 	public function watermarkText($overlayText, $position, 
