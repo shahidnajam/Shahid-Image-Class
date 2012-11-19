@@ -119,7 +119,7 @@ class Shahid_Image_ImageMagick extends Shahid_Image_Abstract
 			}
 		}
 		
-		$imagick->compositeImage($overlay, Imagick::COMPOSITE_OVER, $min[0], $min[1]);
+	    $imagick->compositeImage($overlay, Imagick::COMPOSITE_OVER, $min[0], $min[1]);
 			
 	    $imagick->writeImage($this->_file);
 	    $overlay->clear();
