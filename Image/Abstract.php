@@ -1,7 +1,7 @@
 <?php
 abstract class Shahid_Image_Abstract
 {
-	const POS_TOP_LEFT 		= 'top_left';
+	const POS_TOP_LEFT 	= 'top_left';
 	const POS_TOP_RIGHT 	= 'top_right';
 	const POS_BOTTOM_LEFT 	= 'bottom_left';
 	const POS_BOTTOM_RIGHT 	= 'bottom_right';
